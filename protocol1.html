@@ -15,7 +15,7 @@
         <div class="nav-pos">
                 <!--nav-->
                 <el-row :gutter="20">
-                        <el-col :span="16"><div class="grid-content bg-purple bg-size">Lightwood Limited</div></el-col>
+                        <el-col :span="16"><div class="grid-content bg-purple bg-size" @click="goIndex">Lightwood Limited</div></el-col>
                         <el-col :span="8">
                                 <div class="grid-content bg-purple" @click="clickGo">
                                         <el-dropdown @command="handleClick" >
@@ -108,6 +108,10 @@
                         clickGo :function (){
                                 //todo 跳转第一个协议
                                 window.location.href = window.location.origin + '/protocol1.html'
+                        },
+                        goIndex :function (){
+                                //todo 跳转第一个协议
+                                window.location.href =window.location.origin +  '/protocol1.html'
                         },
 
                 }
