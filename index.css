@@ -39,6 +39,7 @@ body {
 .grid-content {
     border-radius: 4px;
     min-height: 36px;
+    cursor: pointer;
 }
 .row-bg {
     /*padding: 10px 0;*/
