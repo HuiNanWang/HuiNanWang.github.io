@@ -17,8 +17,8 @@
                 <el-row :gutter="20">
                         <el-col :span="16"><div class="grid-content bg-purple bg-size" @click="goIndex">Lightwood Limited</div></el-col>
                         <el-col :span="8">
-                                <div class="grid-content bg-purple" @click="clickGo">
-                                        <el-dropdown @command="handleClick" >
+                                <div class="grid-content bg-purple" >
+                                        <el-dropdown trigger="click" @command="handleClick" >
                                                 <el-button >
                                                         Protocol<i class="el-icon-arrow-down el-icon--right"></i>
                                                 </el-button>
